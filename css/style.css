@@ -109,8 +109,10 @@ h3 {
 
 .articleRight {
 	display: block;
-	width: 70%;
-	margin: 0 auto;
+	width: 64%;
+	height: 400px;
+	margin: 30px auto;
+	background-color: #FFFFFF;
 }
 
 .articleLeft .article_image {
