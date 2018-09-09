@@ -329,6 +329,59 @@ form .messaje textarea {
 	border-color: transparent;
 }
 
+footer {
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #1E2832;
+	color: #a5a9ad;
+	margin:0;
+	padding-bottom: 6em;
+}
+
+footer ul {
+	display: block;	
+	margin: 0;
+	list-style: none;
+	text-align: center;	
+}
+
+footer a {
+	color: #a5a9ad;
+}
+
+
+.contact {
+	display: block;
+	width: 63.1%;
+	border-top: solid 1px rgba(255, 255, 255, 0.1);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact li {
+	display: inline-block;
+	width: 4em;
+	margin: 1em 2em;
+	color: #a5a9ad;
+	padding-top: 8em;
+}
+
+.copyright {
+	display: block;
+	width: 63.1%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.copyright li {
+	display: inline-block;
+	width: 15em;
+	color: #a5a9ad;
+	
+
+}
+
 
 
 
