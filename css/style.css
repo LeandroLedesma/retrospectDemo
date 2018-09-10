@@ -80,7 +80,7 @@ h3 {
     margin: 0 auto 150px auto;
 }
 
-.buttom_big {
+.buttom_solid {
     display: inline-block;
     width: 200px;
     height: 50px;
@@ -95,10 +95,29 @@ h3 {
     text-transform: uppercase;
 }
 
-.buttom_big:hover {
-    background-color: #D3D3D3;
-    border-color: #D3D3D3;  
+.buttom_solid:hover {
+    background-color: #6FC6B3;
+ }   
+
+.void_buttom {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;   
+    padding: 0 1em;
+    background-color: transparent;      
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 2px;
 }
+
+.void_buttom:hover {
+    background-color: rgba(202, 203, 203, 0.1);
+    border-color: rgba(202, 203, 203, 0.1);
+} 
 
 .one {
     display: block;
@@ -137,10 +156,8 @@ h3 {
 
 .article_image {
     display:inline-block;   
-    width: 50%;
-    height: 100%;   
-    background-size: cover;
-    margin: auto 0;
+    width: 50%; 
+    height: 100%;     
 }
 
 .content {
@@ -156,6 +173,7 @@ h3 {
     display: inline-block;
     color: #555;    
     font-size: 1.5em;
+    line-height: 1.5em;
     font-weight: 700;
     margin: 0 0 1em 0;
     font-family: "Raleway", "Helvetica", sans-serif;
@@ -166,21 +184,13 @@ h3 {
     color: #777;
     margin: 0 0 1em 0;
     font-family: "Raleway", "Helvetica", sans-serif;
-    line-height: 1em;
+    line-height: 1.5em;
     font-size: 1.2em;
 }
 
-.content button {
-    display: block;
-    width: 200px;
-    height: 50px;
-    border: #51BAA4 2px solid;
-    background: transparent;
-    border-radius: 100px;
+.content .void_buttom {
+    border-color: #51BAA4;
     color: #51BAA4;
-    text-transform: uppercase;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .two {
@@ -215,7 +225,7 @@ h3 {
 .image_grid {
     display: block;
     width: 63.1%;
-    height: 300px;  
+    height: 400px;  
     margin: auto;
     line-height: 0;
     padding-bottom: 3em;
@@ -232,7 +242,11 @@ h3 {
 
 .image_grid img {
     width: 100%;
-    height: ;
+}
+
+.two .void_buttom {
+    color: #51BAA4;
+    border-color: #51BAA4;
 }
 
 .three {
@@ -273,6 +287,16 @@ h3 {
     font-size: 1.5em;
     text-transform: uppercase;  
 }
+
+.three .void_buttom {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+} 
+
+.four .void_buttom {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+} 
 
 .four {
     display: block;
@@ -338,6 +362,10 @@ form .messaje input {
     margin-right: 2em;
 }
 
+.actions .buttom_solid {
+    border-color: #51BAA4;
+}
+
 form .messaje textarea {
     display: block;
     width: 80%;
@@ -349,16 +377,7 @@ form .messaje textarea {
     padding: 1em;
 }
 
-form .actions .buttom_big[type="reset"] {
-    border: #FFFFFF 2px solid;
-    background: transparent;
-    border-radius: 100px;
-    color: #FFFFFF;
-}
 
-form .actions .buttom_big[type="submit"] {
-    border: #51BAA4 2px solid;
-}
 
 footer {
     display: block;
