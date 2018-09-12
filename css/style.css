@@ -172,7 +172,7 @@ h3 {
 .content h2 {
     display: inline-block;
     color: #555;    
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
     font-weight: 700;
     margin: 0 0 1em 0;
@@ -375,6 +375,7 @@ form .messaje textarea {
     border-radius: 5px;
     border: none;
     padding: 1em;
+    
 }
 
 
@@ -430,6 +431,9 @@ footer a {
     margin-left: 3em;
 }
 
+.messaje input,textarea{
+    color: #FFFFFF;
+}
 
 
 
