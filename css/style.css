@@ -31,7 +31,7 @@ h3 {
 
     
 #menu {
-    display: inline-block;
+    display: block;
     margin: 0;  
     font-weight: bold;
     font-size: 20px;
@@ -160,7 +160,7 @@ h3 {
 }
 
 .content {
-    display: inline-block;
+    display: block;
     width: 41%;
     height: 323px;
     text-align: left;
@@ -231,7 +231,7 @@ h3 {
 }
 
 .image_grid a{
-    display: inline-block;
+    display: block;
     width: 25%;
     height: auto;
     margin: 0;  
